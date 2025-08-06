@@ -183,7 +183,7 @@ body {
 }
 
 
-.navbar-button {
+/* .navbar-button {
   background: white;
   color: #764ba2;
   border: none;
@@ -200,7 +200,7 @@ body {
 .navbar-button:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
+} */
 
 
 .navbar-toggle {
@@ -412,11 +412,11 @@ body {
   max-width: 500px;
 }
 
-.hero-buttons {
+/* .hero-buttons {
   display: flex;
   gap: 1rem;
   margin-bottom: 3rem;
-}
+} */
 
 .hero-button {
   padding: 0.8rem 1.8rem;
@@ -433,29 +433,29 @@ body {
   font-size: 1.1rem;
 }
 
-.hero-button.primary {
+/* .hero-button.primary {
   background: var(--gradient-primary);
   color: white;
   box-shadow: 0 4px 15px rgba(41, 68, 184, 0.3);
-}
+} */
 
-.hero-button.primary:hover {
+/* .hero-button.primary:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(41, 68, 184, 0.4);
-}
+} */
 
-.hero-button.secondary {
+/* .hero-button.secondary {
   background: white;
   color: #6423a5;
   border: 1px solid #e2e8f0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
+} */
 
-.hero-button.secondary:hover {
+/* .hero-button.secondary:hover {
   background: #f7fafc;
   transform: translateY(-3px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
+} */
 
 .hero-stats {
   display: flex;
