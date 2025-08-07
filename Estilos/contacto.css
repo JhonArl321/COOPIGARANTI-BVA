@@ -1,0 +1,155 @@
+.contact {
+  padding: 6rem 0;
+  background: white;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.info-title {
+  font-size: 1.1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.info-text {
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.contact-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-social .social-link {
+  width: 45px;
+  height: 45px;
+  font-size: 1.1rem;
+}
+
+.contact-form {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  background: white;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--gradient-primary);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.form-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(41, 68, 184, 0.3);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .products-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .contact-container {
+      grid-template-columns: 1fr;
+  }
+  
+  .logos-grid {
+      gap: 1.5rem;
+  }
+  
+  .client-logo {
+      max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tab-buttons {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .tab-button {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .product-card {
+      padding: 1rem;
+  }
+  
+  .contact-form {
+      padding: 1.5rem;
+  }
+}
+
