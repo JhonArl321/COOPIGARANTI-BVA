@@ -1,11 +1,14 @@
-.hero {
+
+.portada {
+  border: solid 2px red;
   background: #f8f9fa;
   padding: 5rem 0;
   position: relative;
   overflow: hidden;
 }
 
-.hero-container {
+.hero-container{
+  border: solid 4px black;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -14,7 +17,7 @@
   gap: 4rem;
 }
 
-.hero-content {
+.contenido-portada {
   flex: 1;
   z-index: 2;
 }
@@ -77,17 +80,17 @@
   font-size: 1.1rem;
 }
 
-.hero-stats {
+.estadisticas-portada {
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
 }
 
-.stat-item {
+.elemento-estadistica {
   text-align: center;
 }
 
-.stat-number {
+.numero-estadistica {
   font-size: 2rem;
   font-weight: 700;
   background: var(--gradient-primary);
@@ -97,88 +100,8 @@
   line-height: 1;
 }
 
-.stat-label {
+.label-estadistica{
   font-size: 0.9rem;
   color: #718096;
   margin-top: 0.5rem;
 }
-
-/* Features Section Styles */
-.features {
-  padding: 6rem 0;
-  background: white;
-}
-
-.section-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 2rem;
-}
-
-.section-title {
-  font-size: 2.5rem;
-  text-align: center;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
-}
-
-.section-title span {
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.section-subtitle {
-  font-size: 1.1rem;
-  text-align: center;
-  color: #718096;
-  max-width: 700px;
-  margin: 0 auto 3rem;
-  line-height: 1.6;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-}
-
-.feature-card {
-  background: #f8f9fa;
-  border-radius: 15px;
-  padding: 2rem;
-  transition: var(--transition);
-  border: 1px solid #e2e8f0;
-}
-
-.feature-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  border-color: transparent;
-}
-
-.feature-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--gradient-primary);
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.feature-title {
-  font-size: 1.3rem;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
-}
-
-.feature-description {
-  color: #4a5568;
-  line-height: 1.6;
-}
-
