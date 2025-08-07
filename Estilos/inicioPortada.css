@@ -1,21 +1,19 @@
 
 .portada {
-  border: solid 2px red;
   background: #f8f9fa;
   padding: 5rem 0;
   position: relative;
   overflow: hidden;
 }
 
-.hero-container{
-  border: solid 4px black;
+.hero-containerS{
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
   display: flex;
   align-items: center;
   gap: 4rem;
-}
+} 
 
 .contenido-portada {
   flex: 1;
@@ -105,3 +103,96 @@
   color: #718096;
   margin-top: 0.5rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .hero-containerS {
+      gap: 2rem;
+  }
+  
+  .hero-title {
+      font-size: 2.8rem;
+  }
+}
+
+
+ @media screen and (max-width: 992px) {
+  .hero-containerS {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .hero-text {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .hero-buttons {
+      justify-content: center;
+  }
+  
+  .hero-stats {
+      justify-content: center;
+  }
+  
+  .hero-image {
+      margin-top: 3rem;
+      max-width: 600px;
+  }
+  
+  .hero-image img {
+      transform: none;
+  }
+  
+  .section-title {
+      font-size: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+      padding: 3rem 0;
+  }
+  
+  .hero-title {
+      font-size: 2.3rem;
+  }
+  
+  .hero-buttons {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .hero-stats {
+      flex-wrap: wrap;
+  }
+  
+  .section-title {
+      font-size: 2rem;
+  }
+  
+  .testimonials-slider {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .hero-title {
+      font-size: 2rem;
+  }
+  
+  .hero-text {
+      font-size: 1rem;
+  }
+  
+  .section-title {
+      font-size: 1.8rem;
+  }
+  
+  .section-subtitle {
+      font-size: 1rem;
+  }
+  
+  .features-grid {
+      grid-template-columns: 1fr;
+  }
+} 
