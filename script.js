@@ -171,8 +171,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
 
                 // Actualizar enlace activo
-                enlacesBarra.forEach(enlace => enlace.classList.remove('active'));
-                this.classList.add('active');
+                enlacesBarra.forEach(enlace => enlace.classList.remove('activo'));
+                this.classList.add('activo');
             }
         });
     });
