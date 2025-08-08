@@ -125,10 +125,6 @@
 
 
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const menuMovil = document.getElementById('menu-movil'); // ID cambiado
     const barraNavegacion = document.querySelector('.barra-navegacion'); // .navbar → .barra-navegacion
@@ -242,3 +238,4 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('.buscador-barra').style.background = 'rgba(255, 255, 255, 0.2)';
     });
 });
+
