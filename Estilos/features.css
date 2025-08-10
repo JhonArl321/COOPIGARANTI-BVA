@@ -1,16 +1,19 @@
 /* Features Section Styles */
-.features {
+.contenedorGeneral-servicios {
   padding: 6rem 0;
   background: white;
+  border:  solid 4px green;
 }
 
 .section-container {
+  border: solid 4px red;
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
 .section-title {
+  border: solid 4px yellow;
   font-size: 2.5rem;
   text-align: center;
   color: var(--text-dark);
@@ -18,13 +21,17 @@
 }
 
 .section-title span {
+  border: solid 4px purple;
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+
+/* aquiiiiiiiiiiiiiiiiiiiiiiiiiii */
 .section-subtitle {
+  border: solid 4px pink;
   font-size: 1.1rem;
   text-align: center;
   color: #718096;
@@ -34,6 +41,7 @@
 }
 
 .features-grid {
+  border: solid 4px black;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
