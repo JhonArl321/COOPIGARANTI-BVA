@@ -4,39 +4,31 @@
 .contenedor-general-servicios {
   padding: 6rem 0;
   background: white;
-  border: solid 4px green;
 }
 
 
-
-
-
-
-
-
-
-.rejilla-caracteristicas {
-border: dotted black;
+.contenedor-de-grids{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
-.tarjeta-caracteristica {
+.caracteristicas-grid {
   background: #f8f9fa;
   border-radius: 15px;
   padding: 2rem;
   transition: var(--transition);
   border: 1px solid #e2e8f0;
+  
 }
 
-.tarjeta-caracteristica:hover {
+.caracteristicas-grid:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   border-color: transparent;
 }
 
-.icono-caracteristica {
+.icono-grid {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -49,13 +41,14 @@ border: dotted black;
   margin-bottom: 1.5rem;
 }
 
-.titulo-caracteristica {
+.titulo-grid {
   font-size: 1.3rem;
   color: var(--text-dark);
   margin-bottom: 1rem;
 }
 
-.descripcion-caracteristica {
+.descripcion-grid {
+ 
   color: #4a5568;
   line-height: 1.6;
 }
