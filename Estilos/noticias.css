@@ -1,16 +1,19 @@
 .contenedor-noticias-general {
   padding: 6rem 0;
   background: #f8f9fa;
+  /* border: solid 4px green; */
 }
 
-.testimonials-slider {
+.contenedor-testimonios {
+  /* border: solid 4px red; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
-.testimonial-card {
+.testimonio-tarjeta {
+  /* border: solid 4px blue; */
   background: white;
   border-radius: 15px;
   padding: 2rem;
@@ -18,26 +21,29 @@
   transition: var(--transition);
 }
 
-.testimonial-card:hover {
+.testimonio-tarjeta:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-.testimonial-content {
+.testimonio-texto {
+  /* border: dotted black; */
   position: relative;
   margin-bottom: 2rem;
 }
 
-.testimonial-quote {
+/* .testimonial-quote {
+  border: solid 4px pink;
   position: absolute;
   top: -15px;
   left: -10px;
   color: #e2e8f0;
   font-size: 3rem;
   z-index: 1;
-}
+} */
 
-.testimonial-text {
+.parrafo {
+    /* border: solid 4px yellow; */
   position: relative;
   z-index: 2;
   font-size: 1rem;
@@ -46,13 +52,14 @@
   font-style: italic;
 }
 
-.testimonial-author {
+.testimonio-autor {
+     /* border: solid 4px rgb(93, 82, 131); */
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 
-.author-avatar {
+.autor-foto {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -60,7 +67,7 @@
   border: 3px solid #e2e8f0;
 }
 
-.author-info {
+.autor-info {
   flex: 1;
 }
 
@@ -68,42 +75,23 @@
   font-size: 1.1rem;
   color: var(--text-dark);
   margin-bottom: 0.2rem;
+
 }
 
-.author-position {
+.author-oficio {
   font-size: 0.9rem;
   color: #718096;
 }
+
+
+
+
 
 /* Responsive Styles */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* AQUIIIIII */
 
 
 
