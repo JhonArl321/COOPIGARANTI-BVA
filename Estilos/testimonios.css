@@ -1,11 +1,9 @@
 .contenedor-noticias-general {
   padding: 6rem 0;
   background: #f8f9fa;
-  /* border: solid 4px green; */
 }
 
 .contenedor-testimonios {
-  /* border: solid 4px red; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
@@ -13,7 +11,6 @@
 }
 
 .testimonio-tarjeta {
-  /* border: solid 4px blue; */
   background: white;
   border-radius: 15px;
   padding: 2rem;
@@ -27,23 +24,11 @@
 }
 
 .testimonio-texto {
-  /* border: dotted black; */
   position: relative;
   margin-bottom: 2rem;
 }
 
-/* .testimonial-quote {
-  border: solid 4px pink;
-  position: absolute;
-  top: -15px;
-  left: -10px;
-  color: #e2e8f0;
-  font-size: 3rem;
-  z-index: 1;
-} */
-
 .parrafo2 {
-    /* border: solid 4px yellow; */
   position: relative;
   z-index: 2;
   font-size: 1rem;
@@ -53,7 +38,6 @@
 }
 
 .testimonio-autor {
-     /* border: solid 4px rgb(93, 82, 131); */
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -84,7 +68,48 @@
 }
 
 
-/* Responsive Styles */
+
+
+/* Clients Logos Styles */
+.clientes-que-confian {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.titulo-gris {
+  font-size: 1.1rem;
+  color: #718096;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.avatar-grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.cliente-avatar {
+  max-width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: var(--transition);
+}
+
+.cliente-avatar:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+   
+}
+
+
+
+/* Responsive  */
 
 @media screen and (max-width: 768px) {
  

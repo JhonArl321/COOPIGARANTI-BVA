@@ -155,9 +155,6 @@
       font-size: 2rem;
   }
   
-  /* .testimonials-slider {
-      grid-template-columns: 1fr;
-  } */
 }
 
 @media screen and (max-width: 576px) {
@@ -176,8 +173,8 @@
   .section-subtitle {
       font-size: 1rem;
   }
-/*   
-  .features-grid {
+  
+  .contenedor-de-grids {
       grid-template-columns: 1fr;
-  } */
+  }
 } 
