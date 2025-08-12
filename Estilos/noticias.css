@@ -42,7 +42,7 @@
   z-index: 1;
 } */
 
-.parrafo {
+.parrafo2 {
     /* border: solid 4px yellow; */
   position: relative;
   z-index: 2;
@@ -71,26 +71,28 @@
   flex: 1;
 }
 
-.author-name {
+.author-nombre {
   font-size: 1.1rem;
   color: var(--text-dark);
   margin-bottom: 0.2rem;
 
 }
 
-.author-oficio {
+.autor-oficio {
   font-size: 0.9rem;
   color: #718096;
 }
 
 
-
-
-
 /* Responsive Styles */
 
+@media screen and (max-width: 768px) {
+ 
 
-
+  .contenedor-testimonios {
+      grid-template-columns: 1fr;
+  }
+}
 
 
 

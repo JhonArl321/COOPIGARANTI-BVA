@@ -52,3 +52,12 @@
   color: #4a5568;
   line-height: 1.6;
 }
+
+
+@media screen and (max-width: 576px) {
+
+  
+  .contenedor-de-grids {
+      grid-template-columns: 1fr;
+  }
+} 

@@ -96,6 +96,8 @@
 }
 
 
+
+
 @media screen and (max-width: 1200px) {
   .contenedor-contenido-general {
       gap: 2rem;
@@ -153,9 +155,9 @@
       font-size: 2rem;
   }
   
-  .testimonials-slider {
+  /* .testimonials-slider {
       grid-template-columns: 1fr;
-  }
+  } */
 }
 
 @media screen and (max-width: 576px) {
@@ -174,8 +176,8 @@
   .section-subtitle {
       font-size: 1rem;
   }
-  
+/*   
   .features-grid {
       grid-template-columns: 1fr;
-  }
+  } */
 } 
