@@ -4,6 +4,7 @@
 }
 
 .contenedor-testimonios {
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
@@ -11,6 +12,7 @@
 }
 
 .testimonio-tarjeta {
+ 
   background: white;
   border-radius: 15px;
   padding: 2rem;
@@ -84,7 +86,7 @@
   letter-spacing: 1px;
 }
 
-.avatar-grids {
+.avatars {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
