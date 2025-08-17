@@ -1,4 +1,3 @@
-
 /* contenedor-general-contacto */
 .contenedor-general-contacto {
   padding: 6rem 0;
@@ -55,28 +54,26 @@
   margin-top: 1rem;
 }
 
-.contact-social .social-link  {
+.contact-social .social-link {
   width: 45px;
   height: 45px;
   font-size: 1.1rem;
-  background-color: gray;
 }
 
-
-.contacto-formulario-contenedor {
+.contact-form {
   background: #f8f9fa;
   border-radius: 15px;
   padding: 2rem;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
 }
 
-.formulario-grupo {
+.form-group {
   margin-bottom: 1.5rem;
 }
 
-.formulario-grupo input,
-.formulario-grupo select,
-.formulario-grupo textarea {
+.form-group input,
+.form-group select,
+.form-group textarea {
   width: 100%;
   padding: 0.8rem 1rem;
   border: 1px solid #e2e8f0;
@@ -87,15 +84,15 @@
   background: white;
 }
 
-.formulario-grupo input:focus,
-.formulario-grupo select:focus,
-.formulario-grupo textarea:focus {
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
   outline: none;
   border-color: #667eea;
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
-.formulario-grupo textarea {
+.form-group textarea {
   resize: vertical;
   min-height: 120px;
 }
@@ -152,8 +149,7 @@
       padding: 1rem;
   }
   
-  .contacto-formulario-contenedor {
+  .contact-form {
       padding: 1.5rem;
   }
 }
-
