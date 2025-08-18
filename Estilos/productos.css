@@ -154,3 +154,35 @@
   box-shadow: 0 6px 15px rgba(41, 68, 184, 0.3);
 }
 
+
+
+/* Otras secciones - no afecta #contacto */
+@media screen and (max-width: 768px) {
+  .products-grid {
+      grid-template-columns: 1fr;
+  }
+  
+  .logos-grid {
+      gap: 1.5rem;
+  }
+  
+  .client-logo {
+      max-width: 120px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tab-buttons {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .tab-button {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .product-card {
+      padding: 1rem;
+  }
+}

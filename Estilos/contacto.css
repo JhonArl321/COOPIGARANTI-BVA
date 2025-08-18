@@ -116,7 +116,7 @@
 }
 
 /* Responsive Adjustments */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .products-grid {
       grid-template-columns: 1fr;
   }
@@ -149,6 +149,19 @@
       padding: 1rem;
   }
   
+  .contacto-formulario {
+      padding: 1.5rem;
+  }
+} */
+
+/* Media queries que aplican a sección de contacto */
+@media screen and (max-width: 768px) {
+  .contenedor-contacto {
+      grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
   .contacto-formulario {
       padding: 1.5rem;
   }
