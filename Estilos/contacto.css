@@ -107,7 +107,7 @@ height: 100%;
 /* Media query opcional para móviles */
 @media screen and (max-width: 480px) {
   .contacto-mapa {
-    padding-bottom: 75%; 
+    padding-bottom: 55%; 
   }
 }
 
