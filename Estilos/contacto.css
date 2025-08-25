@@ -73,27 +73,6 @@
 
 
 
-/* .contacto-mapa {
-    height: 100%;
-    min-height: 300px;
-    border-radius: 8px;
-    overflow: hidden;
-    max-width: 600px;   
-    margin: 0 auto;     
-}
-
-.contacto-mapa iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-
-@media (max-width: 768px) {
-    .contacto-mapa {
-        max-width: 90%;  
-        height: 250px;    
-    }
-} */
 
 
 
@@ -162,5 +141,11 @@
 @media screen and (max-width: 576px) {
   .contacto-formulario {
       padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .informacion-texto {
+    font-size: 0.85rem; 
   }
 }
