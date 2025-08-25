@@ -49,16 +49,28 @@
 }
 
 .contact-social {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
-.contact-social .social-link {
-  width: 45px;
-  height: 45px;
-  font-size: 1.1rem;
+.social-link-contacto {
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    color: white;
+    border-radius: 50%;
 }
+
+.social-link-contacto:hover {
+    transform: translateY(-3px);
+    background: rgb(124, 190, 124);
+}
+
 
 .contacto-formulario {
   background: #f8f9fa;
@@ -114,45 +126,6 @@
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(41, 68, 184, 0.3);
 }
-
-/* Responsive Adjustments */
-/* @media screen and (max-width: 768px) {
-  .products-grid {
-      grid-template-columns: 1fr;
-  }
-  
-  .contenedor-contacto {
-      grid-template-columns: 1fr;
-  }
-  
-  .logos-grid {
-      gap: 1.5rem;
-  }
-  
-  .client-logo {
-      max-width: 120px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .tab-buttons {
-      flex-direction: column;
-      align-items: center;
-  }
-  
-  .tab-button {
-      width: 100%;
-      text-align: center;
-  }
-  
-  .product-card {
-      padding: 1rem;
-  }
-  
-  .contacto-formulario {
-      padding: 1.5rem;
-  }
-} */
 
 /* Media queries que aplican a sección de contacto */
 @media screen and (max-width: 768px) {
