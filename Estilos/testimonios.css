@@ -3,16 +3,16 @@
   background: #f8f9fa;
 }
 
+/* Distribuye las tarjetas en un grid flexible:*/
 .contenedor-testimonios {
-
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   margin-top: 3rem;
 }
 
+/* Caja blanca con sombra ligera y animación al hacer hover. */
 .testimonio-tarjeta {
- 
   background: white;
   border-radius: 15px;
   padding: 2rem;
@@ -25,6 +25,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* Texto principal dentro de la tarjeta, en cursiva */
 .testimonio-texto {
   position: relative;
   margin-bottom: 2rem;
@@ -39,6 +40,7 @@
   font-style: italic;
 }
 
+/* Bloque con foto + información del autor. */
 .testimonio-autor {
   display: flex;
   align-items: center;
@@ -69,10 +71,7 @@
   color: #718096;
 }
 
-
-
-
-/* Clients Logos Styles */
+/* Bloque de clientes que confían en la empresa. */
 .clientes-que-confian {
   margin-top: 5rem;
   text-align: center;
@@ -86,6 +85,7 @@
   letter-spacing: 1px;
 }
 
+/* Contenedor flexible de avatars. */
 .avatars {
   display: flex;
   flex-wrap: wrap;
@@ -112,10 +112,8 @@
 
 
 /* Responsive  */
-
+/* En pantallas medianas → los testimonios pasan a 1 columna. */
 @media screen and (max-width: 768px) {
- 
-
   .contenedor-testimonios {
       grid-template-columns: 1fr;
   }

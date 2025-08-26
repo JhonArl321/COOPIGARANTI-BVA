@@ -5,6 +5,7 @@
   position: relative;
 }
 
+/* Grupo de columnas dentro del footer */
 .footer-contenedor-grupo {
   max-width: 1400px;
   margin: 0 auto;
@@ -14,6 +15,7 @@
   gap: 3rem;
 }
 
+/* Sección de marca / logo dentro del footer */
 .footer-marca {
   margin-bottom: 2rem;
 }
@@ -36,11 +38,11 @@
 
 }
 
+/* Iconos de redes sociales en el footer */
 .footer-red-social {
   display: flex;
   gap: 1rem;
 }
-
 
 .social-link-footer {
     width: 40px;
@@ -59,7 +61,7 @@
     transform: translateY(-3px);
 }
 
-
+/* Grupo de enlaces en el footer */
 .links-grupo {
   margin-bottom: 2rem;
 }
@@ -103,12 +105,13 @@
   padding-left: 5px;
 }
 
+/* Barra inferior del footer */
 .footer-bottom {
   background: rgba(0, 0, 0, 0.2);
   padding: 1.5rem 0;
   margin-top: 3rem;
 }
-
+/* Contenido interno del footer inferior */
 .footer-bottom-contenido {
   max-width: 1400px;
   margin: 0 auto;
@@ -158,6 +161,7 @@
   text-align: center;
 }
 
+/* Responsive Footer */
 @media screen and (max-width: 768px) {
   .footer-bottom-contenido {
     flex-direction: column;
@@ -167,8 +171,6 @@
 }
 
 
-
-/* Responsive Footer */
 @media screen and (max-width: 768px) {
   .footer-contenedor-grupo {
       grid-template-columns: 1fr;

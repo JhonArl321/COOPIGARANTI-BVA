@@ -1,14 +1,14 @@
 
+/* Seccion general de portada */
 .contenedor-portadaGeneral {
   background: #f8f9fa;
   padding: 5rem 0;
   position: relative;
   overflow: hidden;
-  /* border: solid 3px black; */
 }
 
+/* contenedor principal de contenido (Texto + imagen) */
 .contenedor-contenido-general{
-  /* border: solid 3px red; */
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
@@ -17,14 +17,13 @@
   gap: 4rem;
 } 
 
+/* bloque de textos */
 .contenedor-textos {
-  /* border: solid 3px green; */
   flex: 1;
   z-index: 2;
 }
 
  .titulo-degradado {
- /* border: solid 2px black;  */
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.2;
@@ -47,9 +46,7 @@
   max-width: 500px;
 }
 
-
 .contenedor-estadisticas {
-  /* border: solid 2px yellow; */
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
@@ -75,8 +72,8 @@
   margin-top: 0.5rem;
 }
 
+/* bloque de imangen */
 .contenedor-imagen {
-  /* border: solid 3px blue; */
   flex: 1;
   position: relative;
   z-index: 1;
@@ -94,9 +91,6 @@
 .contenedor-imagen:hover img {
   transform: perspective(1000px) rotateY(0deg);
 }
-
-
-
 
 @media screen and (max-width: 1200px) {
   .contenedor-contenido-general {

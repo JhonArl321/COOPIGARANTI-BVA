@@ -6,13 +6,14 @@
   background: white;
 }
 
-
+/* Sistema de cuadrícula flexible y adaptable:*/
 .contenedor-de-grids{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
+ /* Estilo de cada tarjeta: */
 .caracteristicas-grid {
   background: #f8f9fa;
   border-radius: 15px;
@@ -28,6 +29,7 @@
   border-color: transparent;
 }
 
+/* Icono circular con gradiente, centrado y destacado. */
 .icono-grid {
   width: 60px;
   height: 60px;
@@ -41,6 +43,7 @@
   margin-bottom: 1.5rem;
 }
 
+/* Título destacado y descripción secundaria. */
 .titulo-grid {
   font-size: 1.3rem;
   color: var(--text-dark);
@@ -48,15 +51,13 @@
 }
 
 .descripcion-grid {
- 
+
   color: #4a5568;
   line-height: 1.6;
 }
 
-
+/* En pantallas pequeñas, el grid se convierte en 1 sola columna. */
 @media screen and (max-width: 576px) {
-
-  
   .contenedor-de-grids {
       grid-template-columns: 1fr;
   }

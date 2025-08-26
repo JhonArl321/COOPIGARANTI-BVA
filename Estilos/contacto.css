@@ -4,6 +4,7 @@
   background: white;
 }
 
+ /* Organiza formulario e información en columnas adaptables */
 .contenedor-contacto {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -12,12 +13,14 @@
  
 }
 
+/* Tarjeta de informacion Contenedor de todas las tarjetas */
 .informacion-contacto {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
+/* tarjeta individual: icono + text */
 .informacion-card {
   display: flex;
   gap: 1.5rem;
@@ -49,7 +52,7 @@
   line-height: 1.6;
 }
 
-
+/* Redes sociales */
 .informacion-redes-titulo{
 text-align: center;
 }
@@ -57,7 +60,6 @@ text-align: center;
 .contact-social {
     display: flex;
     gap: 2rem;
-    /* margin-top: 1rem; */
     justify-content: center;
 }
 
@@ -79,7 +81,7 @@ text-align: center;
     background: #2575fc;
 }
 
-
+  /* formulario */
 .contacto-formulario {
   background: #f8f9fa;
   border-radius: 15px;

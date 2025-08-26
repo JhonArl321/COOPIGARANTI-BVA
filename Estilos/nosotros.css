@@ -1,0 +1,71 @@
+/* .contenedor-nosotros-general{
+  padding: 6rem 0;
+  background: #f8f9fa;
+}
+
+.container-top{
+border: dotted 3px orange;
+display: grid;
+grid-template-columns: 60% 40%;
+padding: 10px;
+gap: 10px;
+}
+.Historia-grid{
+border: solid 1px black;
+padding: 10px;
+}
+.est-parr{
+border: solid 1px green;
+text-align: justify;
+
+
+
+}
+
+.container-imges{
+border: solid 2px blue;
+padding: 10px;
+display: flex;
+gap: 10px;
+}
+
+
+.imag{
+border: solid 2px green;
+width: 45%;
+height: 15rem;
+}
+
+.container-botton{
+  margin-top: 1.5rem;
+  border: dotted 3px orange;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  padding: 10px;
+}
+
+.botton{
+border: solid 1px black;
+  min-height: 15rem;
+padding: 10px;
+}
+
+.botton-grid{
+border: solid 1px green;
+height: 14rem;
+padding: 2px;
+
+}
+.tit{
+border: solid 1px red;
+  padding: 10px ;
+
+}
+.parr-estilos{
+
+border: solid 1px yellow;
+text-align:justify ;
+
+
+} */

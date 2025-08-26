@@ -4,14 +4,14 @@
 
 
 .contenedor-seccion {
-  /* border: solid 4px red; */
+  /* border: solid 2.5px black; */
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
 .titulo-seccion {
-  /* border: solid 4px yellow; */
+  /* border: 2px dotted green; */
   font-size: 2.5rem;
   text-align: center;
   color: var(--text-dark);
@@ -19,7 +19,7 @@
 }
 
 .titulo-seccion span {
-  /* border: solid 4px purple; */
+  /* border: dotted 2px purple; */
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   background-clip: text;
@@ -27,7 +27,7 @@
 }
 
 .subtitulo-seccion {
-  /* border: solid 4px pink; */
+  /* border: dotted 4px pink; */
   font-size: 1.1rem;
   text-align: center;
   color: #718096;
