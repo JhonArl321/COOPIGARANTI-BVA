@@ -4,14 +4,12 @@
 
 
 .contenedor-seccion {
-  /* border: solid 2.5px black; */
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
 .titulo-seccion {
-  /* border: 2px dotted green; */
   font-size: 2.5rem;
   text-align: center;
   color: var(--text-dark);
@@ -19,7 +17,6 @@
 }
 
 .titulo-seccion span {
-  /* border: dotted 2px purple; */
   background: var(--gradient-primary);
   -webkit-background-clip: text;
   background-clip: text;
@@ -27,7 +24,6 @@
 }
 
 .subtitulo-seccion {
-  /* border: dotted 4px pink; */
   font-size: 1.1rem;
   text-align: center;
   color: #718096;
@@ -35,4 +31,6 @@
   margin: 0 auto 3rem;
   line-height: 1.6;
 }
+
+
 
