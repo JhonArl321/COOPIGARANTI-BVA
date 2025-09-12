@@ -1,7 +1,55 @@
 .imagen-superpuesta {
   position: relative;
-  top: +70px;   /* súbela hasta que quede a la mitad de la izquierda */
+  top: +70px;  
 }
 .Historia{
 text-align: justify;
+}
+
+
+/*media Querys*/
+
+
+/* Móvil (pantallas pequeñas, hasta 767px) */
+  @media (max-width: 767px) {
+  .imagenes-historia {
+   
+    display: grid;
+    grid-template-columns: 1fr; 
+    justify-items: center;     
+    gap: 10px;                
+  }
+
+  .imagen-superpuesta {
+    position: relative;
+    top: 0; 
+  }
+
+  .border1 img {
+
+    max-width: 120%; 
+    height: auto;
+  }
+}
+
+
+
+
+
+
+/* Tablet (pantallas medianas, de 768px a 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+.imagnes-historia {
+  display: flex;
+
+  
+  }
+
+  .imagen-superpuesta{
+  position: relative;
+  top: 0;
+  
+  }
+
+  
 }
