@@ -37,12 +37,12 @@
   }
 
   .card-body {
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 0 0 20px 20px;
     padding: 1.5rem;
   }
 
-  .card img {
+  .card img {  
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     transition: transform 0.5s ease;

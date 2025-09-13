@@ -6,12 +6,12 @@
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const menuMovil = document.getElementById('menu-movil'); // ID cambiado
-    const barraNavegacion = document.querySelector('.barra-navegacion'); // .navbar → .barra-navegacion
-    const menuBarra = document.querySelector('.menu-barra'); // .navbar-menu → .menu-barra
-    const botonBusqueda = document.querySelector('.btn-busqueda'); // .search-btn → .btn-busqueda
-    const entradaBusqueda = document.querySelector('.entrada-busqueda'); // .search-input → .entrada-busqueda
-    const enlacesBarra = document.querySelectorAll('.enlace-barra'); // .navbar-link → .enlace-barra
+    const menuMovil = document.getElementById('menu-movil'); 
+    const barraNavegacion = document.querySelector('.barra-navegacion'); 
+    const menuBarra = document.querySelector('.menu-barra'); 
+    const botonBusqueda = document.querySelector('.btn-busqueda');
+    const entradaBusqueda = document.querySelector('.entrada-busqueda');
+    const enlacesBarra = document.querySelectorAll('.enlace-barra');
 
     // Menú móvil
     menuMovil.addEventListener('click', function () {
@@ -91,35 +91,10 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Función de búsqueda
-    function realizarBusqueda() {
-        const termino = entradaBusqueda.value.trim();
-        if (termino) {
-            alert(`Buscando: ${termino}`);
-            entradaBusqueda.value = '';
-            entradaBusqueda.blur();
-        }
-    }
-
-    botonBusqueda.addEventListener('click', realizarBusqueda);
-
-    entradaBusqueda.addEventListener('keypress', function (e) {
-        if (e.key === 'Enter') {
-            realizarBusqueda();
-        }
-    });
-
-    // Efecto hover en el buscador
-    entradaBusqueda.addEventListener('focus', function () {
-        document.querySelector('.buscador-barra').style.background = 'rgba(255, 255, 255, 0.3)';
-    });
-
-    entradaBusqueda.addEventListener('blur', function () {
-        document.querySelector('.buscador-barra').style.background = 'rgba(255, 255, 255, 0.2)';
-    });
+ 
 });
 
-// para efectos de cascadas para las imagenes
+
 document.addEventListener("DOMContentLoaded", function() {
   const elementosHistoria = document.querySelectorAll(".item-historia");
 
