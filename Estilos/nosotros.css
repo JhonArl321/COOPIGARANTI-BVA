@@ -1,43 +1,90 @@
-.imagen-superpuesta {
+  .imagen-superpuesta {
   position: relative;
-  top: +70px;  
-}
-.Historia{
-text-align: justify;
+  top: 70px;  
 }
 
-.aqui{
-background-color: green;
-border-radius: 6px;
+.texto-historia {
+  text-align: justify;
 }
-.mensaje-apoyar{
-color: white;
-font-weight: bold;
 
+
+.texto-apoyo {
+  color: white;
+  font-weight: bold;
 }
 
 
 
 
+.item-historia {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
 
-/* Móvil (pantallas pequeñas, hasta 767px) */
+.item-historia.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+.card {
+   
+    border-radius: 20px; 
+    overflow: hidden; 
+    transition: transform 0.5s ease, box-shadow 0.5s ease;/
+}
+
+.card-body {
+    background-color: white; 
+    border-radius: 0 0 20px 20px;
+    padding: 1.5rem; 
+}
+
+.card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); 
+    border: none;
+}
+
+.card:hover img {
+    transform: scale(1.05);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
-  .imagenes-historia {
+  .galeria-historia {
     display: grid;
     grid-template-columns: 1fr; 
     gap: 15px;
   }
 
-  .border1 {
-    width: 100% !important;   /* fuerza la columna a ocupar todo el ancho */
-   
+  .item-historia {
+    width: 100% !important;   
   }
 
-  .border1 img {
+  .item-historia img {
     width: 100%;          
     height: auto;         
     border-radius: 8px;
-   
     object-fit: cover;    
     display: block;
   }
@@ -45,30 +92,76 @@ font-weight: bold;
   .imagen-superpuesta {
     top: 0;
   }
-.aqui{
-display: none;
+
+   .contenedor-historia {
+    position: relative;
+  }
+
+  .mensaje-historia {
+    position: absolute;
+    bottom: 10px;         
+    transform: translateX(-100%);
+    background-color: rgba(0,128,0,0.75);
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-align: center;
+    width: calc(100% - 20px);
+  }
+
+
+
 }
 
 
-}
 
 
-
-/* Tablet (pantallas medianas, de 768px a 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
-.imagnes-historia {
-  display: flex;
+  .galeria-historia {
+    display: flex;
+  }
+
+  .imagen-superpuesta {
+    position: relative;
+    top: 0;
+  }
+
+  .texto-historia{
+  text-align: left;
 
   }
 
-  .imagen-superpuesta{
-  position: relative;
-  top: 0;
-  
+    .contenedor-historia {
+    position: relative;
   }
 
-  .aqui{
-display: none;
-}
-  
+  .mensaje-historia {
+    position: absolute;
+    bottom: 10px;         
+    transform: translateX(-100%);
+    background-color: rgba(0,128,0,0.75);
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-align: center;
+    width: calc(100% - 20px);
+  }
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+.mensaje-historia {
+  background-color: green;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 6px 10px;
 }

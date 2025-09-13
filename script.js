@@ -119,3 +119,54 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const elementosHistoria = document.querySelectorAll(".item-historia");
+
+  const observador = new IntersectionObserver((entradas) => {
+    entradas.forEach(entrada => {
+      if (entrada.isIntersecting) {
+        elementosHistoria.forEach((elemento, indice) => {
+          setTimeout(() => {
+            elemento.classList.add("visible");
+          }, indice * 300);
+        });
+      } else {
+        elementosHistoria.forEach((elemento, indice) => {
+          setTimeout(() => {
+            elemento.classList.remove("visible");
+          }, indice * 300); 
+        });
+      }
+    });
+  }, {
+    threshold: 0.6
+  });
+
+  elementosHistoria.forEach(elemento => {
+    observador.observe(elemento);
+  });
+});
+
+
+
+
+
+
+
