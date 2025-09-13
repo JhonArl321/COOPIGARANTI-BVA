@@ -108,11 +108,6 @@
 
 
 
-
-
-
-
-
   @media (max-width: 767px) {
     .galeria-historia {
       display: grid;
@@ -151,13 +146,13 @@
       width: calc(100% - 20px);
     }
 
-     
-    
-     .celular {
-    width: 100% !important; /* ocupa todo el ancho */
-    padding-left: 0;         /* opcional */
-    padding-right: 0;        /* opcional */
-  }
+
+
+    .celular {
+      width: 100% !important;
+      padding-left: 0;
+      padding-right: 0;
+    }
 
 
 

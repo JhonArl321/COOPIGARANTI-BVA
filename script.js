@@ -119,23 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// para efectos de cascadas para las imagenes
 document.addEventListener("DOMContentLoaded", function() {
   const elementosHistoria = document.querySelectorAll(".item-historia");
 
@@ -163,10 +147,3 @@ document.addEventListener("DOMContentLoaded", function() {
     observador.observe(elemento);
   });
 });
-
-
-
-
-
-
-
