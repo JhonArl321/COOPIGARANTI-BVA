@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const menuMovil = document.getElementById('menu-movil'); 
     const barraNavegacion = document.querySelector('.barra-navegacion'); 
@@ -82,9 +76,9 @@ document.addEventListener('DOMContentLoaded', function () {
             if (posicionScroll >= topeSeccion && posicionScroll < topeSeccion + alturaSeccion) {
                 const id = seccion.getAttribute('id');
                 enlacesBarra.forEach(enlace => {
-                    enlace.classList.remove('active');
+                    enlace.classList.remove('activo');
                     if (enlace.getAttribute('href') === `#${id}`) {
-                        enlace.classList.add('active');
+                        enlace.classList.add('activo');
                     }
                 });
             }
@@ -94,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
 });
 
-
+//para la amiacion cascada de las imanges en seccion de nosotros
 document.addEventListener("DOMContentLoaded", function() {
   const elementosHistoria = document.querySelectorAll(".item-historia");
 

@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="Estilos/contacto.css">
     <link rel="stylesheet" href="Estilos/footer.css">
     <link rel="stylesheet" href="Estilos/servicios.css">
-    <link rel="stylesheet" href="Estilos/inicioPortada.css">
-    <link rel="stylesheet" href="Estilos/contendores.css">
+    <link rel="stylesheet" href="Estilos/heroInicio.css">
+    <link rel="stylesheet" href="contenedores/contendores.css">
 </head>
 
 <body>
@@ -62,7 +62,7 @@
         </div>
     </nav>
 
-    <!-- section hero -->
+    <!-- section heroInicio -->
     <section class="contenedor-portadaGeneral" id="inicio">
         <div class="contenedor-contenido-general">
             <div class="contenedor-textos">
@@ -496,7 +496,28 @@
 
     </footer>
 
-    <script src="script.js"></script>
+<!-- EmailJS SDK v4 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  (function(){
+    emailjs.init("PUBLIC_KEY"); // reemplaza con tu Public Key
+  })();
+</script>
+
+<script src="scripts/emailJs.js"></script>
+
+
+
+
+
+
 </body>
 
 </html>
+
+
+
+
+
+
