@@ -44,7 +44,7 @@ git clone https://github.com/TU_USUARIO/CoopGarantiBVA.git
 3. Navega por las secciones y explora el diseño responsivo.
 
 
-![Vista previa de la página](./vista.png)
+![Vista previa de la página](./vista.jpeg)
 
 
 
