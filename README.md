@@ -36,7 +36,16 @@ CoopGarantiBVA es una página web institucional diseñada para una cooperativa f
 1. Clona el repositorio:
 
 ```bash
+
 git clone https://github.com/TU_USUARIO/CoopGarantiBVA.git
+
+2. Abre el archivo index.html en tu navegador.
+
+3. Navega por las secciones y explora el diseño responsivo.
+
+
+![Vista previa de la página](./vista.png)
+
 
 
 ## 📄 Licencia
