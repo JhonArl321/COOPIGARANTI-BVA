@@ -15,8 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
         // Cambiar el degradado cuando el menú está abierto
         if (menuBarra.classList.contains('activo')) {
             barraNavegacion.style.background = 'var(--gradient-secondary)';
+          menuBarra.style.height = `calc(150vh - ${barraNavegacion.offsetHeight}px)`;
         } else {
             barraNavegacion.style.background = 'var(--gradient-primary)';
+             menuBarra.style.height = '0';
+               
         }
     });
 
@@ -30,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 menuMovil.classList.remove('activo');
                 menuBarra.classList.remove('activo');
                 barraNavegacion.style.background = 'var(--gradient-primary)';
+                 
             }
 
             // Obtener el ID de la sección objetivo
@@ -50,6 +54,15 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
+
+
+
+
+
+
+
+
+
 
     // Efecto de scroll en el navbar
     window.addEventListener('scroll', function () {
