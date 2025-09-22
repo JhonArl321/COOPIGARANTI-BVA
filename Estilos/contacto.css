@@ -4,13 +4,13 @@
   background: white;
 }
 
- /* Organiza formulario e información en columnas adaptables */
+/* Organiza formulario e información en columnas adaptables */
 .contenedor-contacto {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 3rem;
   margin-top: 3rem;
- 
+
 }
 
 /* Tarjeta de informacion Contenedor de todas las tarjetas */
@@ -53,35 +53,59 @@
 }
 
 /* Redes sociales */
-.informacion-redes-titulo{
-text-align: center;
+.informacion-redes-titulo {
+  text-align: center;
 }
 
+
+
+/* Redes sociales en contacto */
 .contact-social {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
+/* Estilo general para todos los íconos */
 .social-link-contacto {
-    width: 45px;
-    height: 45px;
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   background: linear-gradient(135deg, #6a11cb, #2575fc); 
-    color: white;
-    border-radius: 50%;
-     
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
+
+.social-link-contacto.facebook {
+  background-color: #1877F2;
+}
+
+.social-link-contacto.x {
+  background-color: #000000; 
+}
+
+.social-link-contacto.linkedin {
+  background-color: #0077B5;
+}
+
+.social-link-contacto.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+/* Hover: pequeño “pop” y sombra */
 .social-link-contacto:hover {
-    transform: translateY(-3px);
-    background: #2575fc;
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
 }
 
-  /* formulario */
+
+/* formulario */
 .contacto-formulario {
   background: #f8f9fa;
   border-radius: 15px;
@@ -140,18 +164,18 @@ text-align: center;
 /* Media queries que aplican a sección de contacto */
 @media screen and (max-width: 768px) {
   .contenedor-contacto {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 576px) {
   .contacto-formulario {
-      padding: 1.5rem;
+    padding: 1.5rem;
   }
 }
 
 @media (max-width: 768px) {
   .informacion-texto {
-    font-size: 0.85rem; 
+    font-size: 0.85rem;
   }
 }
