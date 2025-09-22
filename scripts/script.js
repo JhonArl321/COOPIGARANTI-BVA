@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (window.innerWidth <= 768) {
                 menuMovil.classList.remove('activo');
                 menuBarra.classList.remove('activo');
-                barraNavegacion.style.background = 'var(--gradient-primary)';
                  
             }
 

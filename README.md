@@ -25,30 +25,8 @@ CoopGarantiBVA es una página web institucional diseñada para una cooperativa f
 
 ## Tecnologías utilizadas
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Font Awesome (Iconos)
-- Google Fonts (Tipografía)
-
-## Instalación / Uso
-
-1. Clona el repositorio:
-
-```bash
-
-git clone https://github.com/TU_USUARIO/CoopGarantiBVA.git
-
-2. Abre el archivo index.html en tu navegador.
-
-3. Navega por las secciones y explora el diseño responsivo.
-
-
-![Vista previa de la página](./vista.jpeg)
-
-
-
-## 📄 Licencia
-
-Este proyecto está bajo la **Licencia MIT**.  
-Consulta el archivo [LICENSE](./LICENSE) para más detalles.  
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- Font Awesome (Iconos)  
+- Google Fonts (Tipografía)  
