@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Cambiar el degradado cuando el menú está abierto
         if (menuBarra.classList.contains('activo')) {
-            barraNavegacion.style.background = 'var(--gradient-secondary)';
+            barraNavegacion.style.background = 'var(--gradient-primary)';
           menuBarra.style.height = `calc(150vh - ${barraNavegacion.offsetHeight}px)`;
         } else {
             barraNavegacion.style.background = 'var(--gradient-primary)';
@@ -53,13 +53,6 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-
-
-
-
-
-
-
 
 
 
