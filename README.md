@@ -21,7 +21,7 @@ CoopGarantiBVA es una página web institucional diseñada para una cooperativa f
 - Navegación clara y moderna con menú fijo.
 - Sección de servicios con iconos y descripciones.
 - Galería de imágenes y testimonios de asociados.
-- Integración con redes sociales y WhatsApp.
+- Integración con redes sociales, WhatsApp y Messenger.
 
 ## Tecnologías utilizadas
 
