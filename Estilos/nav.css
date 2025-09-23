@@ -193,7 +193,8 @@
     left: -100%;
     width: 100%;
     height: calc(100vh - 75px);
-    background: var(--gradient-secondary);
+    /* background: var(--gradient-secondary); */
+   background-color: #39BC57;
     flex-direction: column;
     align-items: center;
     padding: 2rem 0;
